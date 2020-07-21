@@ -1,2 +1,4 @@
 locust>=1.0.0,<2
 PyYAML>=5.3.1
+click>=7.1.2,<8
+pytest>=5.4.3,<6
