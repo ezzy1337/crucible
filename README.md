@@ -44,10 +44,15 @@ yaml  --> |              |
 4. Results are gathered by crucible and returned to the user.
 
 
+## Getting Started
+### Sample App
+1. python sandbox/app/main.py # TODO make an actual example/sample folder
+2. python crucible.py -s sandbox/openapiv3.yml
+
+
 ## Contributing
 1. Setup virtual environment
 2. Run unit tests
-
 
 ## Unit Tests
 pytest test
