@@ -1,0 +1,24 @@
+openapi: 3.0.2
+info:
+  version: 1.0.0
+  title: The Crucuble Sample App API
+  description: An API that can pass the Crucible!
+
+servers:
+  - url: http://localhost:8000
+    description: The base url for the Crucible sample app
+
+paths:
+  /health:
+    get:
+      summary: Endpoint for checking the API's health
+      description: A simple health endpoint that can be used to test if the API is available and healthy.
+      tags:
+        - Health
+      responses:
+        '200':
+          description: The API Is healthy
+          content:
+            application/json:
+              schema:
+                type: string
