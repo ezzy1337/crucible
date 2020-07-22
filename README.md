@@ -46,8 +46,14 @@ yaml  --> |              |
 
 ## Getting Started
 ### Sample App
-1. python sandbox/app/main.py # TODO make an actual example/sample folder
-2. python crucible.py -s sandbox/openapiv3.yml
+I have provided a smaple API and OpenAPIv3 spec file for you to see how Crucible
+works. This is the best starting place so you see a complete working instance of
+Crucible before you start making changes. The following commands will start the
+sample app and Crucible will start the load test.
+```bash
+python sample/app/main.py
+python crucible.py -s sample/openapiv3.yml
+```
 
 
 ## Contributing
