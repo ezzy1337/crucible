@@ -5,8 +5,8 @@ configurable, and reusable.
 
 ## Roadmap
  - [ ] Support stress testing GET actions.
- - [ ] Support validating response body schema. 
  - [ ] Support stress testing POST, PUT, PATCH, and DELETE actions.
+ - [ ] Support validating response body schema. 
  - [ ] Support OAUth2.0 protected API's. (Probably a Premium Feature)
  - [ ] Support Running in a distributed env. Premium feature?
 
@@ -61,4 +61,4 @@ python crucible.py -s sample/openapiv3.yml
 2. Run unit tests
 
 ## Unit Tests
-pytest test
+pytest tests/

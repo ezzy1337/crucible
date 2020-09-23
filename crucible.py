@@ -6,7 +6,6 @@ from yaml import load
 import locust_factory
 # TODO workout how to run locust in distributed mode.
 
-# OMFG The Proof of concept is done....it's time for architectural decisions and tests
 @click.command()
 @click.option('--spec-file', '-s', required=True, type=click.Path(exists=True), help="Path to OpenAPIv3 spec file")
 def crucible(spec_file):
