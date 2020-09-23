@@ -10,8 +10,13 @@ def __create_test_action(route, action):
     def test_get_action(self):
         self.client.get(route)
 
+    def test_post_action(self):
+        self.client.post(route)
+
     if action == 'get': # This should be an Enum
         return task(test_get_action)
+    if action == 'post':
+        return task(test_post_action)
 
 
 def create_route_locusts(route, actions):
