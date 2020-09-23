@@ -8,3 +8,9 @@ Crucible easily configurable, and reusable.
  - [ ] Support validating response body schema. 
  - [ ] Support stress testing POST, PUT, PATCH, and DELETE actions.
  - [ ] Support OAUth2.0 protected API's.
+
+
+## Tests
+```bash
+pytest test/
+```
