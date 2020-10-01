@@ -11,7 +11,6 @@ Crucible easily configurable, and reusable.
  - [ ] Support Running in a distributed env. Premium feature?
 
 ## Next Steps
- - [] cli
  - [] architecture/design
  - [] tests
 
@@ -55,3 +54,7 @@ sample app and Crucible will start the load test.
 python samples/main.py
 python crucible.py -s sample/openapiv3.yml
 ```
+
+## Tests
+```bash
+pytest test/
